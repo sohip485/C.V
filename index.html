@@ -1,0 +1,112 @@
+<html lang="en"><head>
+    <title>CV Project</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- stylesheet -->
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+
+<body>
+    <!-- navigation Start -->
+
+    <button onclick="viewLogIn()" style="width:auto;" class="log-button">Login</button>
+
+    <div id="log" class="main">
+
+        <form class="log-form" action="/index.html" method="get">
+            <div class="imgContainer">
+                <span onclick="closeLogIn()" class="close" title="Close form">×</span>
+                
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username:</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required="">
+
+                <label for="pass"><b>Password:</b></label>
+                <input type="password" placeholder="Enter Password" name="pass" required="">
+
+                <button type="submit" class="log-btn">Login</button>
+            </div>
+
+            <div class="buttom-container">
+                <button type="button" onclick="closeLogIn()" class="cancelBtn">Cancel</button>
+                <span class="pass"><a href="#">Forgot password?</a></span>
+            </div>
+        </form>
+    </div>
+
+
+    <span class="left-menu" onclick="openNav()">☰</span>
+
+
+    <div id="Sidenav" class="sidenav">
+        <a class="closebtn" onclick="closeNav()">×</a>
+        <a href="contact-me.html">Contact</a>
+        <a href="hobbies.html">my hobbies</a>
+    </div>
+    <!-- navigation End -->
+
+    <!-- personal information start -->
+    <div class="top-container" id="top">
+        <div class="child">
+            <p><em>I am SOHIP</em></p>
+            <p><span>front en</span>d developer</p><em></em>
+        </div>
+    </div>
+    <div class="main-container" id="About">
+        <table>
+            <tbody><tr>
+                <td>
+                    <img src="C:\cv\IMG_20230123_021346_760.jpg" alt="profile picture" width="200px">
+                </td>
+                <td class="table-cell">
+                    <h1>Mahmoud gomaa</h1>
+                    <p>
+                       </p><h2> student AAST_Aswan</h2>
+                       <h2>major CS</h2> 
+                    <p></p>
+                    <p></p><h2>Iam a front-end developer </h2> <p></p>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+    <!-- personal information end -->
+    <!-- education start -->
+    <div class="main-container">
+        <h1>skils</h1>
+           <h2><li>coding</li></h2> 
+            <h2><li>front-end developer</li></h2>
+    </div>
+    <div class="main-container tab-body"> 
+        <h1><em>My projects</em></h1>
+                    <h2>CV</h2>
+                    <h2>HTML, CSS, JS</h2>
+    </div>
+<!--my projects end -->
+    <!-- programming language start -->
+    <div class="main-container tab-body"> 
+        <h1>Programming languages</h1>
+        <h2>python</h2>
+       <h2>c</h2> 
+        <h2>c++</h2> 
+        <h2>javascript</h2> 
+    </div>
+    <!-- programming language end -->
+
+    <!-- footer links star -->
+    <div class="footer">
+        <div class="btn">
+            <a href="contact-me.html">Contact Me</a>
+            <a href="hobbies.html">MyHobbies</a>
+        </div>
+        
+    </div>
+    <!-- footer links end -->
+    <!-- javascript link -->
+    <script src="login-form.js"></script>
+    <script src="style,css"></script>
+
+
+</body></html>
